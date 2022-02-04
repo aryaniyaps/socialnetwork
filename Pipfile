@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+alembic = "==1.7.5"
+sqlalchemy = {version = "==1.4.28", extras = ["aiomysql"]}
+passlib = {version = "==1.7.4", extras = ["bcrypt"]}
+python-decouple = "==3.5"
+strawberry-graphql = "==0.95.3"
+starlette = "==0.18.0"
+
+[dev-packages]
+pytest = "==6.2.5"
+pytest-timeout = "==2.1.0"
+
+[requires]
+python_version = "3.10"

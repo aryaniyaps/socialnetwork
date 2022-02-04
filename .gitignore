@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+
+# testing / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.pytest_cache
+coverage.xml
+*.cover
+
+# mypy
+.mypy_cache
+
+# virtual-env
+.env
+.venv
+env/
+venv/
