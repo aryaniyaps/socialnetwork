@@ -7,9 +7,9 @@ name = "pypi"
 alembic = "==1.7.5"
 sqlalchemy = {version = "==1.4.28", extras = ["aiomysql"]}
 passlib = {version = "==1.7.4", extras = ["bcrypt"]}
-python-decouple = "==3.5"
-strawberry-graphql = "==0.95.3"
-starlette = "==0.18.0"
+strawberry-graphql = {version = "==0.95.3", extras = ["asgi"]}
+starlette = "==0.16.0"
+uvicorn = "==0.17.3"
 
 [dev-packages]
 pytest = "==6.2.5"
