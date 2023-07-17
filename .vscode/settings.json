@@ -1,0 +1,21 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "code-runner.runInTerminal": true,
+    "python.formatting.provider": "black",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+      "--rcfile",
+      ".pylintrc"
+    ],
+    "python.linting.enabled": true,
+    "python.terminal.activateEnvironment": false,
+    "python.globalModuleInstallation": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    }
+  }
