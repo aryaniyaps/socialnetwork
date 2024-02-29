@@ -3,11 +3,11 @@
 ## Tech Stack
 aryaniyaps/socialnetwork is built on the following main stack:
 
+- [Mako](https://github.com/zzzeek/mako) – Templating Languages & Extensions
 - [Python](https://www.python.org) – Languages
 - [SQLAlchemy](http://www.sqlalchemy.org/) – Object Relational Mapper (ORM)
-- [Mako](https://github.com/zzzeek/mako) – Templating Languages & Extensions
-- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 
 Full tech stack [here](/techstack.md)
 
@@ -17,11 +17,11 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 aryaniyaps/socialnetwork is built on the following main stack:
 
+- <img width='25' height='25' src='https://img.stackshare.io/service/3583/default_43e3ee00dcc48a40f6fcba33551e4f5a99a10537.png' alt='Mako'/> [Mako](https://github.com/zzzeek/mako) – Templating Languages & Extensions
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1839/q5uAkmy7.png' alt='SQLAlchemy'/> [SQLAlchemy](http://www.sqlalchemy.org/) – Object Relational Mapper (ORM)
-- <img width='25' height='25' src='https://img.stackshare.io/service/3583/default_43e3ee00dcc48a40f6fcba33551e4f5a99a10537.png' alt='Mako'/> [Mako](https://github.com/zzzeek/mako) – Templating Languages & Extensions
-- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 
 Full tech stack [here](/techstack.md)
 
@@ -32,7 +32,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [aryaniyaps/socialnetwork](https://github.com/aryaniyaps/socialnetwork)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|13<br/>Tools used|01/20/24 <br/>Report generated|
+|13<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -123,7 +123,7 @@ Full tech stack [here](/techstack.md)
 |[passlib](https://pypi.org/project/passlib)|v1.7.4|02/04/22|Aryan Iyappan |BSD-3-Clause|N/A|
 |[pytest](https://pypi.org/project/pytest)|v7.4.0|07/17/23|Aryan Iyappan |MIT|N/A|
 |[pytest-timeout](https://pypi.org/project/pytest-timeout)|v2.1.0|07/17/23|Aryan Iyappan |MIT|N/A|
-|[starlette](https://pypi.org/project/starlette)|v0.30.0|07/17/23|Aryan Iyappan |BSD-3-Clause|N/A|
+|[starlette](https://pypi.org/project/starlette)|v0.30.0|07/17/23|Aryan Iyappan |BSD-3-Clause|[CVE-2024-24762](https://github.com/advisories/GHSA-2jv5-9r88-3w3p) (High)<br/>[](https://github.com/advisories/GHSA-93gm-qmq6-w238) (High)|
 |[uvicorn](https://pypi.org/project/uvicorn)|v0.23.0|07/17/23|Aryan Iyappan |BSD-3-Clause|N/A|
 
 <br/>
