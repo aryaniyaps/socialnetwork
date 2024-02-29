@@ -2,7 +2,7 @@ repo_name: aryaniyaps/socialnetwork
 report_id: 6fc1253f8f43ee1dd85af0172a965e80
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-20T08:11:54+00:00'
+timestamp: '2024-02-29T19:31:20+00:00'
 requested_by: aryaniyaps
 provider: github
 branch: main
@@ -158,6 +158,19 @@ tools:
   detection_source: Pipfile
   last_updated_by: Aryan Iyappan
   last_updated_on: 2023-07-17 15:31:13.000000000 Z
+  vulnerabilities:
+  - name: python-multipart vulnerable to Content-Type Header ReDoS
+    cve_id: CVE-2024-24762
+    cve_url: https://github.com/advisories/GHSA-2jv5-9r88-3w3p
+    detected_date: Feb 17
+    severity: high
+    first_patched: 0.36.2
+  - name: 'Duplicate Advisory: Starlette Content-Type Header ReDoS'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-93gm-qmq6-w238
+    detected_date: Feb 6
+    severity: high
+    first_patched: 0.36.2
 - name: uvicorn
   description: The lightning-fast ASGI server
   package_url: https://pypi.org/project/uvicorn
